@@ -1,7 +1,7 @@
 package in.vamsoft.training.oops;
 
 public interface Flying extends Driving {
-	void takeOff();
+  void takeOff();
 
-	void land();
+  void land();
 }

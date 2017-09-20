@@ -1,10 +1,10 @@
 package in.vamsoft.training.oops;
 
 public interface Driving {
-	void start();
+  void start();
 
-	void stop();
+  void stop();
 
-	void brake();
+  void brake();
 
 }
