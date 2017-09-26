@@ -1,11 +1,15 @@
 package in.vamsoft.training.enm;
 
-public class EnmTest { 
-  
+public class EnmTest {
+
+  /**
+   * @param args
+   *          .
+   */
   public static void main(String[] args) {
-    Sample e = new Sample();
+    final Sample e = new Sample();
     e.month(7);
-    
+
   }
 
 }

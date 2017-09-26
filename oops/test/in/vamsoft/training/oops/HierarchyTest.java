@@ -4,7 +4,7 @@ public class HierarchyTest {
 
   /**
    * .
-   * 
+   *
    * @param args
    *          .
    */
@@ -12,6 +12,7 @@ public class HierarchyTest {
     final SportsCar car = new SportsCar("Xuv");
     car.brake();
     final Car c = new SportsCar();
+    final Car c1 = new SportsCar();
     System.out.println(car);
     System.out.println(c);
   }
