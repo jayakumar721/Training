@@ -13,6 +13,7 @@ public class MultiThread {
     t1.start();
     RunnableThreadMulti2 m2 = new RunnableThreadMulti2();
     Thread t2 = new Thread(m2);
+    t2.setPriority(9);
     t2.start();
     t1.join();
     t2.join();
